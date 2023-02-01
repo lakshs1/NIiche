@@ -1,0 +1,483 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+.container{
+    width: 100%;
+    min-height: 100vh;
+    margin-right: 0%;
+    margin-left: 0%;
+    box-sizing: border-box;
+    overflow: hidden;
+}
+.navbar{
+    width: 100%;
+    display: flex;
+    align-items: center ;
+}
+    .logo{
+        width: 50px;
+        cursor: pointer;
+        margin: 30px ;
+    }
+.menu-icon{
+    width: 25px;
+    cursor: pointer;
+    margin: 30px;
+    display: none;
+}
+.zennn{
+    display: flex;
+    margin: 0px;
+}
+.nuuu{
+    display: flex;
+}
+.store{
+    font-size: 20px;
+    position: relative;
+    left: 80px;
+    
+}
+.store a{
+    text-decoration: none;
+    color: white;
+}
+.get_web{
+    font-size: 15px;
+    position: relative;
+    left: 80PX ;
+    height: 50px;
+    
+}
+.get_web a{
+    text-decoration: none;
+    color: white;
+}
+
+nav{
+    flex: 1;
+    text-align: right;
+}
+nav ul li{
+    list-style: none;
+    display: inline-block;
+    margin-right: 30px;
+}
+nav ul li a{
+    text-decoration: none;
+    color: #000;
+    font-size: 14px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+
+nav ul li a:hover{
+    color: crimson;
+}
+.ad{
+    justify-content: center;
+    align-items: center;
+
+}
+.advertise{
+    width: max-content;
+}
+
+.row{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin: 100PX 0;
+}
+.col1{
+    flex-basis: 40%;
+    position: relative;
+    margin-left: 100PX;
+}
+.col1 P{
+    font-size: 16PX;
+    color: #B7B7B7;
+    font-weight: 100;
+    margin: 10px;
+}
+.ex{
+    margin: 30px;
+}
+.col1 H2{
+    font-size: 54PX;
+
+    
+}
+.col1 h3{
+    font-size: 30px;
+    color: #707070;
+    font-weight: 100;
+    margin: 20px 0 10px;
+}
+BUTTon{
+    width: 140px;
+    border: 0;
+    padding: 12px 10px;
+    outline: none;
+   color: #fff;
+   background: linear-gradient( to right, #f87fa1, #ff3527);
+   border-radius: 10px;
+   cursor: pointer;
+   transition: width 0.5s;
+}
+BUTTon:hover{
+    width: 180px;
+}
+.col1::after{
+    content: '';
+    width: 10px;
+    height: 57%;
+    background: linear-gradient( #ec8143, #fa1403);
+    position: absolute;
+    left: -40px;
+    top: 8px;
+}
+.col2{
+    position: relative;
+    flex-basis: 60%;
+    display: flex;
+    align-items: center;
+}
+.SOLO{
+position: absolute;
+}
+.ex{
+    display: flex;
+}
+
+.body{
+    max-width: 100vh;
+    max-height: 100vh;
+    height: 200px;
+}
+.ends{
+    display: block;
+    position: relative;
+   left: 600px;
+   top: 200px;
+font-family: Verdana, Geneva, Tahoma, sans-serif;
+text-decoration: none;
+}
+.mail{
+    color:white;
+}
+.tele{
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    color:white;
+}
+.telegram{
+    color: white;
+}
+.com{
+    color: white;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+.comm{
+    color: white;
+}
+.botom{
+    align-items: center;
+    justify-content: center;
+    
+}
+.bottom{
+    background-color: black;
+   display: flex;
+}
+.COMPANY{
+    background-color: black;
+}
+@media only screen and (max-width:700px){
+    nav ul{
+        width: 100%;
+        background:  linear-gradient( #ec8143, #fa1403);
+        position: absolute;
+        top: 75px;
+        right: 0;
+        z-index: 2;
+        border-radius: 10px;
+        width: 100px;
+    }
+    nav ul li{
+        display: block;
+        margin-top: 10px;
+        margin-bottom: 10px;
+
+    }
+    nav ul li a{
+        color: #fff;
+    }
+    .menu-icon{
+        display: block;
+    }
+
+    #menulist{
+        overflow: hidden;
+        transition: 0.5s;
+    }
+    .col1{
+        margin: 50px;
+    }
+    .col1 H2{
+        font-size: 27px;
+    }
+    .col1 h3{
+        font-size: 15px;}
+
+        .SOLO{
+            width: 100%;
+            height: fit-content;
+
+        }
+        .ends{
+            display: grid;
+            color: black;
+            position: relative;
+            top: 600px;
+           left: -0px;
+           margin: 20px;
+           font-size: 16px;
+           margin-bottom: 29px;
+        }
+        .ex{
+            display: grid;
+            margin: 20px;
+            
+        }
+        .mail{
+            display: grid;
+            color: black;
+            text-decoration: none;
+        }
+   
+        .telegram{
+            color: #000;
+            text-decoration: none;
+        }
+        .com{
+            color: #000;
+            text-decoration: none;
+        }
+     .ad{
+        width: 100%;
+     }
+    hr{
+        display: none;
+    }
+    .dis{
+        display: none;
+    }
+.comm{
+    color: #000;
+    text-decoration: none;
+}
+.categories{
+    display:flex;
+}
+.categories img{
+   
+    display: FLEX;
+    
+}
+
+.botom{
+    width: 300px;
+    
+}
+.cat-side{
+    display: none;
+}
+.slideframe{
+    width: 300px;
+    height: 50px;
+}
+.slide{
+    height: 50px;
+    width: max-content;
+}
+.nuu{
+    height: 50px;
+    width: 300px;
+}
+.nu{
+    height: 50px;
+    width: 300px;
+}
+.zennesa{
+    height: 50px;
+    width: 300px;
+}
+.slideframe{
+    display: none;
+}
+.ends{
+    width: 100%;
+}
+
+}
+.advertise{
+    width: 80vh;
+}
+.MAKE-OWN{
+    width: 80vh;
+}
+.ad{
+    display: flex;
+}
+.body{
+    margin: 10px;
+}
+.ad-ad{
+    display: flex;
+ margin-bottom: 80px;
+    margin-left: 50px;
+    margin-top: 30px;
+}
+.cool h2{
+    font-size: 80px;
+}
+.c0l h3{
+    font-size: 30px;
+    font-family: cursive;
+    color: rgb(126, 120, 120);
+}
+.cool2{
+    display: flex;
+    margin-left: 150px;
+ position: relative;
+    bottom: 20px;
+}
+.cool2 h2{
+    font-size: 80px;
+}
+.cool2 h3{
+    font-size: 30px;
+    font-family: cursive;
+    color: rgb(126, 120, 120);
+
+}
+hr{
+    width: 800px;
+    margin: 30px;
+    position: relative;
+    display: flex;
+    left: 300px;
+}
+.BUY{
+    display: flex;
+}
+.buy{
+    position: relative;
+    left: 400px;
+    width: 800px;
+}
+.Buy{
+    position: relative;
+    left: 350px;
+    bottom: 50px;
+    font-size: 200px;
+}
+.ot{
+    position: relative;
+    top: 200px;
+    left: 100px;
+    color: #707070;
+    font-size: 50px;
+}
+.cat-side{
+    position: relative;
+   left: 700px;
+    width: 150px;
+}
+.NU{
+    position: relative;
+    width: 800px;
+    margin-right: 40px;
+    top: 100px;
+}
+.categories{
+    display: BLOCK;
+    
+}
+.categories h2{
+    font-size: 50px;
+    font-weight: lighter;
+    margin-left: 50px;
+}
+.categories img{
+    margin: 10px;
+    display: flex;
+    margin-left: 30px;
+    
+}
+.slideframe{
+    overflow: hidden;
+    height: 500px;
+    width: 1200px;
+    margin-left: 180px;
+    margin-top: 20px;
+ margin-bottom: 50px;
+
+}
+
+/*------------slider animation-----------------*/
+
+@-webkit-keyframes slide_animation{
+    0%{left: 0px;}
+    10% {left: 0px;}
+    20% {left: 1200px;}
+    30% {left: 1200px;}
+    40% {left: 2400px;}
+    50% {left: 2400px;}
+    60% {left: 1200px;}
+    70%  {left: 1200px;}
+    80%  {left: 0px;}
+    90% {left: 0px;}
+    100% {left: 0px;}
+}
+
+.slide-images{
+    width: 3600px;
+    height: 800px;
+    margin: 0 0 0 -2400px;
+    position: relative;
+    -webkit-animation-name: slide_animation;
+    -webkit-animation-duration: 10s;
+    -webkit-animation-iteration-count: infinite;
+    -webkit-animation-direction: alternate;
+    -webkit-animation-play-state: running;
+
+
+
+}
+.image-container1{
+    height: 800px;
+    width: 1200px;
+    position: relative;
+    float: left;
+
+}
+.image-container2{
+    height: 800px;
+    width: 1200px;
+    position: relative;
+    float: left;
+}
+.image-container3{
+    height: 800px;
+    width: 1200px;
+    position: relative;
+    float: left;
+}
+.slide-images img{
+    width: 1200px;
+    height: 500px;
+}
+/*--------------THE END--------------*/

@@ -1,0 +1,112 @@
+.container{
+    width: 100%;
+    min-height: 100vh;
+    margin-right: 0%;
+    margin-left: 0%;
+    box-sizing: border-box;
+    overflow: hidden;
+}.navbar{
+    width: 100%;
+    display: flex;
+    align-items: center ;
+}
+    .logo{
+        width: 50px;
+        cursor: pointer;
+        margin: 30px ;
+    }.menu-icon{
+        width: 25px;
+        cursor: pointer;
+        margin: 30px;
+        display: none;
+    }
+    nav{
+        flex: 1;
+        text-align: right;
+    }
+    nav ul li{
+        list-style: none;
+        display: inline-block;
+        margin-right: 30px;
+    }
+    nav ul li a{
+        text-decoration: none;
+        color: #000;
+        font-size: 14px;
+        font-family: Verdana, Geneva, Tahoma, sans-serif;
+    }
+    nav ul li a:hover{
+        color: crimson;
+    }
+    button{
+        width: 140px;
+        border: 0;
+        padding: 12px 10px;
+        outline: none;
+       color: #fff;
+       background: linear-gradient( to right, #f87fa1, #ff3527);
+       border-radius: 10px;
+       cursor: pointer;
+       transition: width 0.5s;
+    }    
+    button:hover{
+        width: 180px;
+    }
+    .catt{
+        margin: 20px;
+
+    }
+  .side{
+    float: left;
+  }
+  .siide{
+    float: right;
+    position: relative;
+    right: 200px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+  }
+  .BUY{
+    position: relative;
+    float: right;
+    right: 500px;
+    bottom: 150px;
+  }
+  .siide h2{
+    color: gray;
+  }
+  .siide h3{
+    color: gray;
+  }
+  @media only screen and (max-width:700px){
+    nav ul{
+        width: 100%;
+        background:  linear-gradient( #ec8143, #fa1403);
+        position: absolute;
+        top: 75px;
+        right: 0;
+        z-index: 2;
+        border-radius: 10px;
+        width: 100px;
+    }
+    nav ul li{
+        display: block;
+        margin-top: 10px;
+        margin-bottom: 10px;
+
+    }
+    nav ul li a{
+        color: #fff;
+    }
+    .menu-icon{
+        display: block;
+    }
+
+    #menulist{
+        overflow: hidden;
+        transition: 0.5s;
+    }
+    .board{
+        width: 200px;
+        display: block;
+    }
+  }
