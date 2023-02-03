@@ -130,15 +130,19 @@ text-decoration: none;
     .row{
         display: flex;
     }
-    .col1{
+ .col1{
 position: relative;
 left: -120px;
-top: 630px;
+
+top: 530px;
+    }
+    .SOLO{
+        width: 330px;
     }
     .col2{
         position: relative;
-        top: 200px;
-        left: -70px;
+        top: 120px;
+        left: -55px;
         
     }
     
