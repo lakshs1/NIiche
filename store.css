@@ -169,5 +169,8 @@ top: 630px;
         overflow: hidden;
         transition: 0.5s;
     }
-    
+    .board{
+        width: 200px;
+        display: block;
+    }
   }
