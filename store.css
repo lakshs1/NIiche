@@ -131,20 +131,26 @@ text-decoration: none;
         display: flex;
     }
  .col1{
-position: relative;
-left: -120px;
-
-top: 530px;
-    }
-    .SOLO{
-        width: 330px;
-    }
-    .col2{
         position: relative;
-        top: 120px;
-        left: -55px;
-        
-    }
+        right: -1PX;
+        left: 25PX;
+        top: 30px;
+        font-size: 11PX;
+            }
+            .SOLO{
+                width: 330px;
+            }
+            .col2{
+                position: relative;
+                top: 180px;
+                left: -200px;
+               
+
+            }
+            .catt{
+                position: relative;
+                left: -15PX;
+            }
     
     nav ul{
         width: 100%;
